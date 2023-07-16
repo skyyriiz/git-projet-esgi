@@ -1,0 +1,22 @@
+{
+  "name": "discordbot",
+  "version": "1.0.1-dev",
+  "description": "Bot discord LoL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.6.5",
+    "superagent": "^8.0.6"
+  }
+}
