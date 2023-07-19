@@ -1,4 +1,4 @@
-**Wof Bot - Gestion d'Association League of Legends ESGI**
+## **Wof Bot - Gestion d'Association League of Legends ESGI**
 
 Ce bot Discord a été développé pour gérer une association League of Legends à l'école ESGI. Il utilise une base de données MongoDB pour stocker toutes les données nécessaires.
 
