@@ -8,6 +8,7 @@ const { clientId, token } = require('./config.json');
 const commands = [];
 // Get all the JS code from commands repository
 const commandsPath = path.join(__dirname, 'commands');
+//Filter the files to get only javascript code file
 const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
 // Convert all the data to JSON
 for (const file of commandFiles) {
