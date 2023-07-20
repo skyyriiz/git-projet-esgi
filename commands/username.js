@@ -8,7 +8,7 @@ module.exports = {
         .addStringOption(option => option.setName('username').setDescription('ton nouveau username LoL').setRequired(true)),
     async execute(interaction) {
         const getUser = await User.findOne({id: interaction.user.id});
-
+        console.log("test");
         var username = interaction.options.getString('username');
 
         if (!getUser) return interaction.reply({ embeds: [new EmbedBuilder().setColor(0xFF0000).setTitle('Validation de la présence').setDescription('Vous n\'êtes pas inscrit !').setTimestamp().setFooter({text: `Demandé par ${interaction.user.username}`, iconURL: interaction.user.avatarURL()})]});
