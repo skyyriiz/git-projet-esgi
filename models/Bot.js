@@ -33,6 +33,7 @@ class Bot extends Client {
         await mongoose.connect(this.config.dbURI);
         await this.setCommands();
         await this.login(this.config.token);
+        console.log('Bot is ready');
     }
 }
 
